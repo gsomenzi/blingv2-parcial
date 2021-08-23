@@ -3,7 +3,7 @@
 ## Instalacão
 
 ```shellscript
-    yarn add git+https://gsomenzi@bitbucket.org/gsomenzi/dropshope-integracao-bling.git
+    yarn add @gsomenzi/blingv2-parcial
 ```
 
 ## Uso da integracão
@@ -43,6 +43,7 @@ Filtros disponíveis:
   - dataPrevista: date (dd/mm/YYYY);
   - idSituacao: integer (segundo API de situações)	;
   - idContato: integer.
+  - 
 Leia mais sobre [esta API](https://ajuda.bling.com.br/hc/pt-br/articles/360046424094-GET-pedidos).
 
 - getOrderByNumber(number)
@@ -74,6 +75,7 @@ Filtros disponíveis:
   - dataInclusaoLoja: date (dd/mm/YYYY) ou datetime (dd/mm/YYYY H:i:s);
   - tipo: string(1);
   - situacao: string(1).
+  - 
 Leia mais sobre [esta API](https://ajuda.bling.com.br/hc/pt-br/articles/360046422714-GET-produtos).
 
 - getProductByCode(code)
@@ -125,6 +127,7 @@ const order = await blingV2.createOrder({
     vrl_desconto: 0,
 })
 ```
+
 Leia mais sobre [esta API](https://ajuda.bling.com.br/hc/pt-br/articles/360047064693-POST-pedido).
 
 - createNf(data)
@@ -176,4 +179,5 @@ const order = await blingV2.createOrder({
     vrl_desconto: 0,
 })
 ```
+
 Leia mais sobre [esta API](https://ajuda.bling.com.br/hc/pt-br/articles/360047015633-POST-notafiscal).

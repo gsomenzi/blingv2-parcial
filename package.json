@@ -1,5 +1,5 @@
 {
-  "name": "blingv2-parcial",
+  "name": "@gsomenzi/blingv2-parcial",
   "version": "0.2.0",
   "description": "Módulo de integração parcial com a API v2 do Bling",
   "main": "index.js",
@@ -13,5 +13,17 @@
     "dotenv": "^10.0.0",
     "jsontoxml": "^1.0.1",
     "xml-js": "^1.6.11"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsomenzi/blingv2-parcial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gsomenzi/blingv2-parcial/issues"
+  },
+  "homepage": "https://github.com/gsomenzi/blingv2-parcial#readme"
 }
