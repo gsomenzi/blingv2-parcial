@@ -1,4 +1,4 @@
-# Dropshope - módulo de integraão com a API V2 do Bling
+# blingv2-parcial - módulo de integracão parcial NÃO OFICIAL com a API V2 do Bling
 
 ## Instalacão
 
