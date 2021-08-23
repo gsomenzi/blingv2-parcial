@@ -1,0 +1,17 @@
+{
+  "name": "blingv2-parcial",
+  "version": "0.2.0",
+  "description": "Módulo de integração parcial com a API v2 do Bling",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "author": "Guilherme Somenzi <guilherme@somenzi.me>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "jsontoxml": "^1.0.1",
+    "xml-js": "^1.6.11"
+  }
+}
