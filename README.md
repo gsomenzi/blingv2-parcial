@@ -22,7 +22,7 @@ console.log(products);
 ### Pedidos
 
 Buscar pedidos
-- getOrders() ou getOrders(filters: object)
+- **getOrders()** ou **getOrders(filters: object)**
 
 Os filtros são opcionais e devem ser passados no formato {chave: valor, chave: valor}.
 
@@ -46,14 +46,14 @@ Filtros disponíveis:
   - 
 Leia mais sobre [esta API](https://ajuda.bling.com.br/hc/pt-br/articles/360046424094-GET-pedidos).
 
-- getOrderByNumber(number)
+- **getOrderByNumber(number)**
 
 Busca um pedido pelo número.
 
 ### Produtos
 
 Buscar produtos
-- getProducts() ou getProducts(filters: object)
+- **getProducts()** ou **getProducts(filters: object)**
 
 Os filtros são opcionais e devem ser passados no formato {chave: valor, chave: valor}.
 
@@ -78,11 +78,12 @@ Filtros disponíveis:
   - 
 Leia mais sobre [esta API](https://ajuda.bling.com.br/hc/pt-br/articles/360046422714-GET-produtos).
 
-- getProductByCode(code)
+
+- **getProductByCode(code)**
 
 Busca um produto pelo código/sku.
 
-- createOrder(data)
+- **createOrder(data)**
 
 Cria um pedido a partir dos dados informados.
 
@@ -130,7 +131,7 @@ const order = await blingV2.createOrder({
 
 Leia mais sobre [esta API](https://ajuda.bling.com.br/hc/pt-br/articles/360047064693-POST-pedido).
 
-- createNf(data)
+- **createNf(data)**
 
 Cria uma NF a partir dos dados informados.
 
